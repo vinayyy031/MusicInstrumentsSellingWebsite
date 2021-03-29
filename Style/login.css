@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../Resources/moto.jpg);
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+}
+#main{
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+    margin-top: 25vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+    display: flex;
+}
+#left{
+/*    background-color: black;*/
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left img{
+    width: 15vw;
+    height: 30vh;
+    box-shadow: 2px 10px 40px 5px black;
+    border-radius: 50%;
+}
+
+#right{
+/*    background-color: red;*/
+    width: 50%;
+    height: 100%;
+    display: flex;
+/*    justify-content: center;*/
+    align-items: center;
+    color: black;
+    flex-direction: column;
+}
+#right p{
+    font-family: "verdana";
+    font-weight: lighter;
+    font-size: 30px;
+}
+.log{
+    width: 20vw;
+    height: 2vh;
+    border: none;
+    background-color: lightgray;
+    padding: 1vw;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-top: 2vh;
+}
+#log_in{
+    width: 22vw;
+    height: 5vh;
+    background-color: #57B847;
+    border: none;
+    margin-top: 2vh;
+    border-radius: 40px;
+    color: white;
+}
+#log_in:hover{
+    cursor: pointer;
+}
+#right a p{
+    font-family: "verdana";
+    font-weight: lighter;
+    color: grey;
+    font-size: 15px;
+}
+#right a p:hover{
+    cursor: pointer;
+    color: black;
+    
+}

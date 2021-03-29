@@ -1,0 +1,93 @@
+body{
+    /*background-image: linear-gradient(white,purple);*/
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+#title{
+    /*background-color: #9FC5C6;*/
+    background-image: linear-gradient(to bottom, rgba(175, 79, 239, 0.8), rgba(96, 180, 225, 0.8)),url("../Resources/sign_up_wallpaper.jpg");
+    /*background-repeat: no-repeat;*/
+    color: white;
+    background-size: cover;
+    width: 97%;
+    height: 15vh;
+    /*opacity: 0.6;*/
+    position: fixed;
+    z-index: 0;
+    border: 5px solid white;
+    padding: 1vw;
+    font-family: "arial";
+    font-weight: lighter;
+    border-bottom: none;
+    text-shadow: 2px 5px 10px black;
+}
+#right{
+    background-color: white;
+    width: 97vw;
+    height: 98vh;
+    border: 5px solid white;
+    box-shadow: 5px 20px 20px black;
+    z-index: 1;
+    margin-top: 16vh;
+}
+.Q{
+    margin-top: 4vh;
+    background-color: #F9F9F9;
+    /*margin-left: 2vw;*/
+    width: 100%;
+    height: 6vh;
+    /*margin-top: 20vh;*/
+    border-left: 5px solid red; 
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.Q span{
+    color: red;
+    font-family: "arial";
+    font-size: 30px;
+    margin-left: 0.5vw;
+    font-weight: bold;
+    margin-right: 0.5vw;
+}
+hr{
+    width: 100%;
+    color: red;
+    height: 4px;
+}
+.A{
+    background-color: white;
+    /*margin-left: 2vw;*/
+    width: 100%;
+    height: 6vh;
+    /*margin-top: 20vh;*/
+    border-left: 5px solid #CACACA; 
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+}
+.A span{
+    color: #CACACA;
+    font-family: "arial";
+    font-size: 30px;
+    margin-left: 0.5vw;
+    font-weight: bold;
+    margin-right: 0.5vw;
+}
+.Q p{
+    font-family: "arial";
+    font-weight: lighter;
+}
+.A p{
+    font-family: "arial";
+    font-weight: lighter;
+    color: grey;
+}
