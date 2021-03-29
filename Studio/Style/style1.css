@@ -1,0 +1,256 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#header_Contact{
+    font-size: 1rem;
+    font-family: monospace;
+    float: right;
+    width: 40%;
+    height: 15%;
+}
+
+
+#search_icon{
+    height: 26px;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+    background-color: black;
+}
+
+#search_icon img{
+    width: 20px;
+}
+
+#search_icon img:hover{
+    cursor: pointer;
+}
+
+#header_main{
+    
+}
+#header_logo img{
+    width: 150px;
+}
+
+#header_search{
+    margin-left: 15%;
+    margin-top: -50px;
+    display: flex;
+}
+
+#header_search input{
+    width: 500px;
+    height: 30px;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.account{
+    border: 1px solid black;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    font-size: 0.8rem;
+    padding: 8px 14px;
+    margin-top: -5px;
+}
+
+#signup{
+    margin-left: 300px;
+}
+
+#lists{
+    background-color: black;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 12px;
+}
+
+li a{
+    color: white;
+    font-family: verdana;
+    text-decoration: none;
+    /*margin-left: 25px;*/
+    font-size: 0.9rem;
+}
+
+li a:hover{
+    font-size: 1rem;
+}
+
+
+#foot{
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.5 solid lightgray;
+}
+.footing{
+    margin: 60px;
+}
+
+.footing h1{
+    font-family: sans-serif;
+    font-size: 1.7rem;
+}
+
+.footing p{
+    font-family: sans-serif;
+    line-height: 0.5;
+}
+
+.footing p:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.insta{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    border-top: 0.5px solid lightgray;
+}
+
+#subscribe{
+    border-bottom: 0.5px solid lightgray;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+#subscribe input{
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+
+
+#subscribe button{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 2px;
+    background-color: black;
+    color: white;
+}
+
+#download{
+    width: 50%;
+    margin: auto;
+    border-bottom: 0.5px solid lightgray;
+}
+
+#download img{
+    width: 150px;
+    margin-left: 250px;
+}
+
+#social{
+    width: 12%;
+    margin: auto;
+}
+
+#social h3{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#social img{
+    width: 150px;
+}
+
+/*bodyy*/
+
+#haha{
+    font-size: 0.9rem;
+    font-family: verdana;
+}
+
+#haha:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.headings{
+    border-top: 0.5px solid lightgray;
+    text-align: center;
+    border-bottom: 0.5px solid lightgray;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+#imges img{
+    width: 100%;
+    height: 400px;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+}
+
+
+.cat{
+    width: 350px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.top-para{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: verdana;
+}
+
+.cat:hover{
+    box-shadow: 2px 2px 10px 2px grey;
+}
+
+
+.music1{
+    display: flex;
+    justify-content: center;
+    /*justify-content: space-around;*/
+}
+
+.one{
+    width: 250px;
+    font-family: verdana;
+    margin: 16px;
+    border: 0.5px solid lightgray;
+    padding: 10px;
+}
+.one:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 2px grey;
+}
+.one img{
+    width: 200px;
+    margin-left: 30px;;
+}
+
+.one del{
+    font-size: 0.8rem;
+}
+.para{
+    background-color: red;
+    font-size: 1.05rem;
+    padding: 2px;
+}
+
